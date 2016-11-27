@@ -1,0 +1,7 @@
+ssw_sphinx.egg-info
+docs/_build
+docs/_static
+docs/_templates
+build
+*.pyc
+*.egg
