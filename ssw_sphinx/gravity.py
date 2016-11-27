@@ -20,6 +20,8 @@ class Gravity:
     :ivar g: Gravity constant
 
     .. note:: This class is completely useless
+
+    .. warning:: Make sure you know how to handle gravity
     """
 
     def __init__(self, v0):

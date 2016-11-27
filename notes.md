@@ -8,14 +8,15 @@
     Source code
     ===========
 
-    ssw_sphinx module
-    -----------------
+    ssw_sphinx.gravity module
+    -------------------------
 
-    .. autoclass:: ssw_sphinx.MyCoolClass
+    .. automodule:: ssw_sphinx.gravity
         :members:
     ```
 7. Compile again and show that the module and the Class is showing up
 8. Fill out some class documentation
+
     ```python  
     """
     .. module:: ssw_sphinx
@@ -39,6 +40,8 @@
         :ivar g: Gravity constant
 
         .. note:: This class is completely useless
+
+        .. warning:: Make sure you know how to handle gravity
         """
 
         def __init__(self, v0):
@@ -67,3 +70,4 @@
     ```
 9. This theme is pretty ugly, so show them how to switch html theme to sphinx_rtd_theme.
 10. Show them how to add another section
+11. Commit and push and show them what RTD looks like
