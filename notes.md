@@ -3,6 +3,27 @@
 3. Walk through the different options
 4. Compile the documentation and show that it's empty and boring
 5. Add a caption and add a source_code file to the toctree
+    ```rst
+    Welcome to SSW_Sphinx's documentation!
+    ======================================
+
+    Contents:
+
+    .. toctree::
+       :maxdepth: 2
+       :caption: User Documentation
+
+       intro
+       source_code
+
+
+    Indices and tables
+    ==================
+
+    * :ref:`genindex`
+    * :ref:`modindex`
+    * :ref:`search`
+    ```
 6. Fill out the source_code file:
     ```rst
     Source code
@@ -19,11 +40,6 @@
 
     ```python  
     """
-    .. module:: ssw_sphinx
-       :synopsis: A pretty useless class
-
-    .. moduleauthor:: David Eriksson <dme65@cornell.edu>
-
     :Module: ssw_sphinx
     :Author: David Eriksson <dme65@cornell.edu>
     """
@@ -68,6 +84,10 @@
 
             return self.v0*t - 0.5*self.g*t**2
     ```
-9. This theme is pretty ugly, so show them how to switch html theme to sphinx_rtd_theme.
+9. This theme is pretty ugly, so show them how to switch html theme to sphinx_rtd_theme. Install via:
+  ```
+  pip install sphinx_rtd_theme.
+  ```
 10. Show them how to add another section
 11. Commit and push and show them what RTD looks like
+12. Show them the pySOT documentation

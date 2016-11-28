@@ -1,9 +1,4 @@
 """
-.. module:: ssw_sphinx
-   :synopsis: A pretty useless class
-
-.. moduleauthor:: David Eriksson <dme65@cornell.edu>
-
 :Module: ssw_sphinx
 :Author: David Eriksson <dme65@cornell.edu>
 """
